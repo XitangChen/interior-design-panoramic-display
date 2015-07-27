@@ -1,0 +1,150 @@
+.tools,
+.menu-nav {
+  position: absolute;
+  z-index: 1;
+  color: white;
+}
+
+.tools {
+  top: 20px;
+  right: 20px;
+  display: flex;
+  padding: 0;
+  margin: 0;
+
+  button {
+    width: 50px;
+    height: 50px;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+    background: rgb(0 0 0 / 60%);
+    border: none;
+    border-radius: 50%;
+
+    &:not(:last-child) {
+      margin-right: 10px;
+    }
+  }
+}
+
+.menu-nav {
+  @padding: 5px;
+
+  @padding2x: calc(@padding * 2);
+
+  bottom: 0;
+  left: 50%;
+  padding: 20px 20px 10px;
+  margin: 0;
+  white-space: nowrap;
+  background: rgb(0 0 0 / 60%);
+  transform: translate(-50%, 0);
+
+  dt,
+  dd {
+    padding: 0;
+    margin: 0 0 @padding2x 0;
+  }
+
+  dt {
+    float: left;
+    padding: @padding 0 @padding @padding2x;
+    font-weight: bold;
+  }
+
+  dd {
+    display: flex;
+    overflow: hidden;
+
+    &::after {
+      display: block;
+      clear: both;
+      content: ' ';
+    }
+  }
+
+  span {
+    padding: @padding @padding2x;
+    margin: 0;
+    cursor: pointer;
+  }
+  
+  :global(.selected) {
+    background: rgb(64 158 255);
+  }
+}
+
+.help-info-modal {
+  dl {
+    display: flex;
+  }
+
+  dt {
+    flex-shrink: 0;
+    font-weight: bold;
+  }
+
+  dd {
+    margin: 0;
+  }
+}
+
+.page-nav {
+  @padding: 10px;
+
+  padding: 0;
+  margin: 0;
+
+  .total,
+  button {
+    position: absolute;
+    z-index: 1;
+  }
+
+  .total {
+    @width: 60px;
+
+    top: @padding;
+    left: @padding;
+    display: inline-block;
+    width: @width;
+    height: @width;
+    font-size: 18px;
+    line-height: @width;
+    color: rgb(0 255 255);
+    text-align: center;
+    background-color: rgb(0 0 0 / 60%);
+    border-radius: 50%;
+  }
+
+  .text {
+    display: none;
+  }
+
+  button {
+    top: 50%;
+    padding: 12px;
+    line-height: 1;
+    color: white;
+    cursor: pointer;
+    background-color: rgb(0 0 0 / 60%);
+    border: none;
+    border-radius: 50%;
+    opacity: .7;
+    transform: translate(0, -50%);
+
+    svg {
+      width: 25px;
+      height: 25px;
+    }
+  }
+
+  .prev {
+    left: @padding;
+  }
+  
+  .next {
+    right: @padding;
+  }
+}
