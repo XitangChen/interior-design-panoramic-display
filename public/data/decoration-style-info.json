@@ -1,0 +1,164 @@
+[
+  {
+    "name": "中式",
+    "selected": true,
+    "parts": [
+      {
+        "name": "客餐厅",
+        "selected": true,
+        "images": [
+          "/images/equirectangularmaps/interior-design/chinese-style/living-and-dining-room/00125.jpg",
+          "/images/equirectangularmaps/interior-design/chinese-style/living-and-dining-room/0011.jpg",
+          "/images/equirectangularmaps/interior-design/chinese-style/living-and-dining-room/00110.jpg",
+          "/images/equirectangularmaps/interior-design/chinese-style/living-and-dining-room/00111.jpg"
+        ]
+      },
+      {
+        "name": "客厅",
+        "images": [
+          "/images/equirectangularmaps/interior-design/chinese-style/living-room/0011.jpg",
+          "/images/equirectangularmaps/interior-design/chinese-style/living-room/00110.jpg",
+          "/images/equirectangularmaps/interior-design/chinese-style/living-room/00111.jpg",
+          "/images/equirectangularmaps/interior-design/chinese-style/living-room/00112.jpg",
+          "/images/equirectangularmaps/interior-design/chinese-style/living-room/00113.jpg"
+        ]
+      },
+      {
+        "name": "餐厨",
+        "images": [
+          "/images/equirectangularmaps/interior-design/chinese-style/kitchen/0011.jpg",
+          "/images/equirectangularmaps/interior-design/chinese-style/kitchen/00110.jpg",
+          "/images/equirectangularmaps/interior-design/chinese-style/kitchen/00111.jpg",
+          "/images/equirectangularmaps/interior-design/chinese-style/kitchen/0012.jpg",
+          "/images/equirectangularmaps/interior-design/chinese-style/kitchen/0013.jpg",
+          "/images/equirectangularmaps/interior-design/chinese-style/kitchen/0014.jpg",
+          "/images/equirectangularmaps/interior-design/chinese-style/kitchen/0015.jpg"
+        ]
+      },
+      {
+        "name": "卧室",
+        "images": [
+          "/images/equirectangularmaps/interior-design/chinese-style/bedroom/0011.jpg",
+          "/images/equirectangularmaps/interior-design/chinese-style/bedroom/00110.jpg",
+          "/images/equirectangularmaps/interior-design/chinese-style/bedroom/00111.jpg",
+          "/images/equirectangularmaps/interior-design/chinese-style/bedroom/0012.jpg",
+          "/images/equirectangularmaps/interior-design/chinese-style/bedroom/0013.jpg",
+          "/images/equirectangularmaps/interior-design/chinese-style/bedroom/0014.jpg"
+        ]
+      },
+      {
+        "name": "卫浴",
+        "images": [
+          "/images/equirectangularmaps/interior-design/chinese-style/bathroom/0011.jpg",
+          "/images/equirectangularmaps/interior-design/chinese-style/bathroom/0012.jpg",
+          "/images/equirectangularmaps/interior-design/chinese-style/bathroom/0013.jpg",
+          "/images/equirectangularmaps/interior-design/chinese-style/bathroom/0014.jpg"
+        ]
+      },
+      {
+        "name": "书房",
+        "images": [
+          "/images/equirectangularmaps/interior-design/chinese-style/study/0011.jpg",
+          "/images/equirectangularmaps/interior-design/chinese-style/study/0012.jpg",
+          "/images/equirectangularmaps/interior-design/chinese-style/study/0013.jpg",
+          "/images/equirectangularmaps/interior-design/chinese-style/study/0014.jpg"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "现代",
+    "parts": [
+      {
+        "name": "客餐厅",
+        "images": [
+          "/images/equirectangularmaps/interior-design/modern/0011.jpg",
+          "/images/equirectangularmaps/interior-design/modern/0010.jpg",
+          "/images/equirectangularmaps/interior-design/modern/00111.jpg"
+        ]
+      },
+      { "name": "客厅", "images": [] },
+      { "name": "餐厨", "images": [] },
+      { "name": "卧室", "images": [] },
+      { "name": "卫浴", "images": [] }
+    ]
+  },
+  {
+    "name": "新古典",
+    "parts": [
+      {
+        "name": "客餐厅",
+        "images": [
+          "/images/equirectangularmaps/interior-design/neoclassical/0011.jpg",
+          "/images/equirectangularmaps/interior-design/neoclassical/00110.jpg",
+          "/images/equirectangularmaps/interior-design/neoclassical/00111.jpg"
+        ]
+      },
+      { "name": "客厅", "images": [] },
+      { "name": "餐厨", "images": [] },
+      { "name": "卧室", "images": [] },
+      { "name": "卫浴", "images": [] }
+    ]
+  },
+  {
+    "name": "欧式",
+    "parts": [
+      {
+        "name": "客餐厅",
+        "images": [
+          "/images/equirectangularmaps/interior-design/european-style/0011.jpg",
+          "/images/equirectangularmaps/interior-design/european-style/00110.jpg",
+          "/images/equirectangularmaps/interior-design/european-style/00111.jpg"
+        ]
+      },
+      { "name": "客厅", "images": [] },
+      { "name": "餐厨", "images": [] },
+      { "name": "卧室", "images": [] },
+      { "name": "卫浴", "images": [] }
+    ]
+  },
+  {
+    "name": "美式",
+    "parts": [
+      {
+        "name": "客餐厅",
+        "images": [
+          "/images/equirectangularmaps/interior-design/american/0011.jpg",
+          "/images/equirectangularmaps/interior-design/american/00110.jpg",
+          "/images/equirectangularmaps/interior-design/american/00111.jpg"
+        ]
+      },
+      { "name": "客厅", "images": [] },
+      { "name": "餐厨", "images": [] },
+      { "name": "卧室", "images": [] },
+      { "name": "卫浴", "images": [] }
+    ]
+  },
+  {
+    "name": "北欧",
+    "parts": [
+      {
+        "name": "客餐厅",
+        "images": [
+          "/images/equirectangularmaps/interior-design/nordic-style/0011.jpg",
+          "/images/equirectangularmaps/interior-design/nordic-style/00110.jpg",
+          "/images/equirectangularmaps/interior-design/nordic-style/00111.jpg"
+        ]
+      },
+      { "name": "客厅", "images": [] },
+      { "name": "卧室", "images": [] }
+    ]
+  },
+  {
+    "name": "法式",
+    "parts": [
+      {
+        "name": "客厅",
+        "images": [
+          "/images/equirectangularmaps/interior-design/french/0011.jpg"
+        ]
+      },
+      { "name": "餐厨", "images": [] }
+    ]
+  }
+]
