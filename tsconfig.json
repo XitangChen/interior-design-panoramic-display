@@ -1,0 +1,37 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "jsx": "react-jsx",
+    "module": "ESNext",
+    "target": "ES2015",
+    "strict": true,
+    "allowJs": true,
+    "skipLibCheck": true,
+    "noEmit": true,
+    "allowSyntheticDefaultImports": true,
+    "moduleResolution": "node",
+    "isolatedModules": true,
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "forceConsistentCasingInFileNames": true,
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "paths": {
+      "@/*": ["src/*"],
+      "pages/*": ["src/pages/*"],
+      "components/*": ["src/components/*"],
+      "actions/*": ["src/redux/actions/*"],
+      "reducers/*": ["src/redux/reducers/*"],
+      "style/*": ["src/assets/style/*"],
+      "modules/*": ["modules/*"]
+    }
+  },
+  "exclude": ["node_modules", "dist", "public"],
+  "include": [
+    "src/**/*",
+    "node_modules/@types/**/*",
+    "node_modules/webpack/*.d.ts",
+    "node_modules/react-redux/**/*.d.ts"
+  ]
+}
