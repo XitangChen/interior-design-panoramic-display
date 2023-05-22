@@ -1,2 +1,0 @@
-# Interior Design Panoramic Display
-
