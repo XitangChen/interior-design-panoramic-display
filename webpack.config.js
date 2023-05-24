@@ -7,7 +7,7 @@ const CopyWebpackPlugin = require('copy-webpack-plugin');
 const ESLintPlugin = require('eslint-webpack-plugin');
 const CssMinimizerPlugin = require('css-minimizer-webpack-plugin');
 const tsConfig = require('./tsconfig.json');
-const TerserWebpackPlugin = require('terser-webpack-plugin')
+const TerserWebpackPlugin = require('terser-webpack-plugin');
 
 const devEnvOK = process.argv.some((v) => v === '--mode=development');
 const resolvePath = (...paths) => path.join(__dirname, ...paths);
@@ -137,13 +137,14 @@ const webpackConfig = {
           test: /[\\/]node_modules[\\/]/,
           priority: -10,
           reuseExistingChunk: true,
+          name: 'common'
         },
         default: {
           minChunks: 2,
           priority: -20,
-          reuseExistingChunk: true,
+          reuseExistingChunk: true
         },
-      },
+      }
     },
     minimize: !devEnvOK,
     minimizer: [

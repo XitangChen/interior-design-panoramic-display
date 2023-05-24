@@ -1,8 +1,7 @@
 {
-  "name": "react-practice",
+  "name": "interior-design-panoramic-display",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Interior Design Panoramic Display with ThreeJS",
   "scripts": {
     "dev": "webpack-dev-server --mode=development",
     "build": "webpack --mode=production",
